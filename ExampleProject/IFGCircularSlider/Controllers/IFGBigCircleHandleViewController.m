@@ -12,8 +12,6 @@
 
 @interface IFGBigCircleHandleViewController ()
 
-@property (weak, nonatomic) IBOutlet IFGCircularSlider      *circularSlider;
-
 @end
 
 @implementation IFGBigCircleHandleViewController

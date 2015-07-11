@@ -8,11 +8,8 @@
 //
 
 #import "IFGSnapToLabelsViewController.h"
-#import "IFGCircularSlider.h"
 
 @interface IFGSnapToLabelsViewController ()
-
-@property (weak, nonatomic) IBOutlet IFGCircularSlider      *circularSlider;
 
 @end
 

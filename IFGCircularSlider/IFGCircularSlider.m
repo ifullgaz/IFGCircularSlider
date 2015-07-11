@@ -423,22 +423,13 @@ static const CGFloat kFitFrameRadius = -1.0;
     // Only draw labels if they have been set
     NSInteger labelsCount = self.innerMarkingLabels.count;
     if(labelsCount) {
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_7_0
         NSDictionary *attributes = @{ NSFontAttributeName: self.labelFont,
                                       NSForegroundColorAttributeName: self.labelColor};
-#endif
         for (int i = 0; i < labelsCount; i++) {
             // Enumerate through labels clockwise
             NSString* label = self.innerMarkingLabels[i];
-            
             CGRect labelFrame = [self contextCoordinatesForLabelAtIndex:i];
-            
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_7_0
             [label drawInRect:labelFrame withAttributes:attributes];
-#else
-            [self.labelColor setFill];
-            [label drawInRect:labelFrame withFont:self.labelFont];
-#endif
         }
     }
 }

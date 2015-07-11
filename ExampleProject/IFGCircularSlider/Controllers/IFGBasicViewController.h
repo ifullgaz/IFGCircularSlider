@@ -7,8 +7,8 @@
 //  Copyright (c) 2015 Emmanuel Merali. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "IFGDemoViewController.h"
 
-@interface IFGBasicViewController : UIViewController
+@interface IFGBasicViewController : IFGDemoViewController
 
 @end

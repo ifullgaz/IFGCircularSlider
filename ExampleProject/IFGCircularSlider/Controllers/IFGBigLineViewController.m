@@ -8,11 +8,8 @@
 //
 
 #import "IFGBigLineViewController.h"
-#import "IFGCircularSlider.h"
 
 @interface IFGBigLineViewController ()
-
-@property (weak, nonatomic) IBOutlet IFGCircularSlider      *circularSlider;
 
 @end
 

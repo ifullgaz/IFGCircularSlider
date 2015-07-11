@@ -8,11 +8,9 @@
 //
 
 #import "IFGBasicViewController.h"
-#import "IFGCircularSlider.h"
 
 @interface IFGBasicViewController ()
 
-@property (weak, nonatomic) IBOutlet IFGCircularSlider      *circularSlider;
 @property (weak, nonatomic) IBOutlet UILabel                *valueLabel;
 
 @end

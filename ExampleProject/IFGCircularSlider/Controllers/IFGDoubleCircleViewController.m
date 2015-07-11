@@ -8,11 +8,8 @@
 //
 
 #import "IFGDoubleCircleViewController.h"
-#import "IFGCircularSlider.h"
 
 @interface IFGDoubleCircleViewController ()
-
-@property (weak, nonatomic) IBOutlet IFGCircularSlider      *circularSlider;
 
 @end
 

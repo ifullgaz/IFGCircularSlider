@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		146E00541B51DC04001A728A /* IFGDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E00531B51DC04001A728A /* IFGDemoViewController.m */; };
 		147100E71B517CBB00680233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147100E61B517CBB00680233 /* main.m */; };
 		147100EA1B517CBB00680233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 147100E91B517CBB00680233 /* AppDelegate.m */; };
 		147100F01B517CBB00680233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147100EE1B517CBB00680233 /* Main.storyboard */; };
@@ -21,7 +22,6 @@
 		147101331B517E8B00680233 /* IFGDoubleCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147101261B517E8B00680233 /* IFGDoubleCircleViewController.m */; };
 		147101341B517E8B00680233 /* IFGSnapToLabelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147101281B517E8B00680233 /* IFGSnapToLabelsViewController.m */; };
 		147101351B517E8B00680233 /* IFGTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471012A1B517E8B00680233 /* IFGTimePickerViewController.m */; };
-		147101361B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471012C1B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.m */; };
 		147101371B517E8B00680233 /* IFGWithLabelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471012E1B517E8B00680233 /* IFGWithLabelsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		146E00521B51DC04001A728A /* IFGDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGDemoViewController.h; sourceTree = "<group>"; };
+		146E00531B51DC04001A728A /* IFGDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGDemoViewController.m; sourceTree = "<group>"; };
 		147100E11B517CBB00680233 /* IFGCircularSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFGCircularSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147100E51B517CBB00680233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		147100E61B517CBB00680233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,8 +65,6 @@
 		147101281B517E8B00680233 /* IFGSnapToLabelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGSnapToLabelsViewController.m; sourceTree = "<group>"; };
 		147101291B517E8B00680233 /* IFGTimePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGTimePickerViewController.h; sourceTree = "<group>"; };
 		1471012A1B517E8B00680233 /* IFGTimePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGTimePickerViewController.m; sourceTree = "<group>"; };
-		1471012B1B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGTwoSlidersAutoLayoutViewController.h; sourceTree = "<group>"; };
-		1471012C1B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGTwoSlidersAutoLayoutViewController.m; sourceTree = "<group>"; };
 		1471012D1B517E8B00680233 /* IFGWithLabelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGWithLabelsViewController.h; sourceTree = "<group>"; };
 		1471012E1B517E8B00680233 /* IFGWithLabelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGWithLabelsViewController.m; sourceTree = "<group>"; };
 		147101381B517EEC00680233 /* IFGCircularSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFGCircularSlider-Prefix.pch"; sourceTree = "<group>"; };
@@ -163,14 +163,14 @@
 		1471011C1B517E8B00680233 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				146E00521B51DC04001A728A /* IFGDemoViewController.h */,
+				146E00531B51DC04001A728A /* IFGDemoViewController.m */,
 				1471011D1B517E8B00680233 /* IFGBasicViewController.h */,
 				1471011E1B517E8B00680233 /* IFGBasicViewController.m */,
 				1471011F1B517E8B00680233 /* IFGBigCircleHandleViewController.h */,
 				147101201B517E8B00680233 /* IFGBigCircleHandleViewController.m */,
 				147101251B517E8B00680233 /* IFGDoubleCircleViewController.h */,
 				147101261B517E8B00680233 /* IFGDoubleCircleViewController.m */,
-				1471012B1B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.h */,
-				1471012C1B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.m */,
 				1471012D1B517E8B00680233 /* IFGWithLabelsViewController.h */,
 				1471012E1B517E8B00680233 /* IFGWithLabelsViewController.m */,
 				147101211B517E8B00680233 /* IFGBigLineViewController.h */,
@@ -283,12 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146E00541B51DC04001A728A /* IFGDemoViewController.m in Sources */,
 				1471011A1B517E7800680233 /* IFGCircularSlider.m in Sources */,
 				147101341B517E8B00680233 /* IFGSnapToLabelsViewController.m in Sources */,
 				147101311B517E8B00680233 /* IFGBigLineViewController.m in Sources */,
 				1471011B1B517E7800680233 /* IFGCircularTrig.m in Sources */,
 				147101301B517E8B00680233 /* IFGBigCircleHandleViewController.m in Sources */,
-				147101361B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.m in Sources */,
 				147101351B517E8B00680233 /* IFGTimePickerViewController.m in Sources */,
 				147100EA1B517CBB00680233 /* AppDelegate.m in Sources */,
 				147100E71B517CBB00680233 /* main.m in Sources */,

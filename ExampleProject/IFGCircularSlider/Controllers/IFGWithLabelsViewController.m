@@ -8,11 +8,10 @@
 //
 
 #import "IFGWithLabelsViewController.h"
-#import "IFGCircularSlider.h"
 
 @interface IFGWithLabelsViewController ()
 
-@property (weak, nonatomic) IBOutlet IFGCircularSlider      *circularSlider;
+@property (weak, nonatomic) IBOutlet UISwitch *snapToLabelsSwitch;
 
 @end
 
@@ -22,9 +21,11 @@
     [super viewDidLoad];
     NSArray* labels = @[@"Beetle", @"Cow", @"Donkey", @"Eagle", @"Ant"];
     self.circularSlider.innerMarkingLabels = labels;
-    self.circularSlider.northAngle = -135;
-    self.circularSlider.coverage = 270;
-    self.circularSlider.snapToLabels = YES;
+    self.snapToLabelsSwitch.on = NO;
+}
+
+- (IBAction)snapToLabelSwitchValueChanged:(UISwitch *)sender {
+    self.circularSlider.snapToLabels = sender.on;
 }
 
 @end
