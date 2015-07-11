@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147100E71B517CBB00680233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147100E61B517CBB00680233 /* main.m */; };
+		147100EA1B517CBB00680233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 147100E91B517CBB00680233 /* AppDelegate.m */; };
+		147100F01B517CBB00680233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147100EE1B517CBB00680233 /* Main.storyboard */; };
+		147100F21B517CBB00680233 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147100F11B517CBB00680233 /* Images.xcassets */; };
+		147100F51B517CBB00680233 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147100F31B517CBB00680233 /* LaunchScreen.xib */; };
+		147101011B517CBC00680233 /* IFGCircularSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147101001B517CBC00680233 /* IFGCircularSliderTests.m */; };
+		1471011A1B517E7800680233 /* IFGCircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 147101171B517E7800680233 /* IFGCircularSlider.m */; };
+		1471011B1B517E7800680233 /* IFGCircularTrig.m in Sources */ = {isa = PBXBuildFile; fileRef = 147101191B517E7800680233 /* IFGCircularTrig.m */; };
+		1471012F1B517E8B00680233 /* IFGBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471011E1B517E8B00680233 /* IFGBasicViewController.m */; };
+		147101301B517E8B00680233 /* IFGBigCircleHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147101201B517E8B00680233 /* IFGBigCircleHandleViewController.m */; };
+		147101311B517E8B00680233 /* IFGBigLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147101221B517E8B00680233 /* IFGBigLineViewController.m */; };
+		147101331B517E8B00680233 /* IFGDoubleCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147101261B517E8B00680233 /* IFGDoubleCircleViewController.m */; };
+		147101341B517E8B00680233 /* IFGSnapToLabelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147101281B517E8B00680233 /* IFGSnapToLabelsViewController.m */; };
+		147101351B517E8B00680233 /* IFGTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471012A1B517E8B00680233 /* IFGTimePickerViewController.m */; };
+		147101361B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471012C1B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.m */; };
+		147101371B517E8B00680233 /* IFGWithLabelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471012E1B517E8B00680233 /* IFGWithLabelsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147100FB1B517CBC00680233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147100D91B517CBB00680233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147100E01B517CBB00680233;
+			remoteInfo = IFGCircularSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		147100E11B517CBB00680233 /* IFGCircularSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFGCircularSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147100E51B517CBB00680233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147100E61B517CBB00680233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		147100E81B517CBB00680233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		147100E91B517CBB00680233 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		147100EF1B517CBB00680233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		147100F11B517CBB00680233 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		147100F41B517CBB00680233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		147100FA1B517CBC00680233 /* IFGCircularSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IFGCircularSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147100FF1B517CBC00680233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147101001B517CBC00680233 /* IFGCircularSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFGCircularSliderTests.m; sourceTree = "<group>"; };
+		147101161B517E7800680233 /* IFGCircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGCircularSlider.h; sourceTree = "<group>"; };
+		147101171B517E7800680233 /* IFGCircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGCircularSlider.m; sourceTree = "<group>"; };
+		147101181B517E7800680233 /* IFGCircularTrig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGCircularTrig.h; sourceTree = "<group>"; };
+		147101191B517E7800680233 /* IFGCircularTrig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGCircularTrig.m; sourceTree = "<group>"; };
+		1471011D1B517E8B00680233 /* IFGBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGBasicViewController.h; sourceTree = "<group>"; };
+		1471011E1B517E8B00680233 /* IFGBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGBasicViewController.m; sourceTree = "<group>"; };
+		1471011F1B517E8B00680233 /* IFGBigCircleHandleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGBigCircleHandleViewController.h; sourceTree = "<group>"; };
+		147101201B517E8B00680233 /* IFGBigCircleHandleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGBigCircleHandleViewController.m; sourceTree = "<group>"; };
+		147101211B517E8B00680233 /* IFGBigLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGBigLineViewController.h; sourceTree = "<group>"; };
+		147101221B517E8B00680233 /* IFGBigLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGBigLineViewController.m; sourceTree = "<group>"; };
+		147101251B517E8B00680233 /* IFGDoubleCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGDoubleCircleViewController.h; sourceTree = "<group>"; };
+		147101261B517E8B00680233 /* IFGDoubleCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGDoubleCircleViewController.m; sourceTree = "<group>"; };
+		147101271B517E8B00680233 /* IFGSnapToLabelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGSnapToLabelsViewController.h; sourceTree = "<group>"; };
+		147101281B517E8B00680233 /* IFGSnapToLabelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGSnapToLabelsViewController.m; sourceTree = "<group>"; };
+		147101291B517E8B00680233 /* IFGTimePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGTimePickerViewController.h; sourceTree = "<group>"; };
+		1471012A1B517E8B00680233 /* IFGTimePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGTimePickerViewController.m; sourceTree = "<group>"; };
+		1471012B1B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGTwoSlidersAutoLayoutViewController.h; sourceTree = "<group>"; };
+		1471012C1B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGTwoSlidersAutoLayoutViewController.m; sourceTree = "<group>"; };
+		1471012D1B517E8B00680233 /* IFGWithLabelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFGWithLabelsViewController.h; sourceTree = "<group>"; };
+		1471012E1B517E8B00680233 /* IFGWithLabelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFGWithLabelsViewController.m; sourceTree = "<group>"; };
+		147101381B517EEC00680233 /* IFGCircularSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFGCircularSlider-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147100DE1B517CBB00680233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147100F71B517CBC00680233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147100D81B517CBB00680233 = {
+			isa = PBXGroup;
+			children = (
+				147100E31B517CBB00680233 /* IFGCircularSlider */,
+				147100FD1B517CBC00680233 /* IFGCircularSliderTests */,
+				147100E21B517CBB00680233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		147100E21B517CBB00680233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147100E11B517CBB00680233 /* IFGCircularSlider.app */,
+				147100FA1B517CBC00680233 /* IFGCircularSliderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147100E31B517CBB00680233 /* IFGCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				147101151B517E7800680233 /* IFGCircularSlider */,
+				1471011C1B517E8B00680233 /* Controllers */,
+				147100E81B517CBB00680233 /* AppDelegate.h */,
+				147100E91B517CBB00680233 /* AppDelegate.m */,
+				147100EE1B517CBB00680233 /* Main.storyboard */,
+				147100F11B517CBB00680233 /* Images.xcassets */,
+				147100F31B517CBB00680233 /* LaunchScreen.xib */,
+				147100E41B517CBB00680233 /* Supporting Files */,
+			);
+			path = IFGCircularSlider;
+			sourceTree = "<group>";
+		};
+		147100E41B517CBB00680233 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				147100E51B517CBB00680233 /* Info.plist */,
+				147100E61B517CBB00680233 /* main.m */,
+				147101381B517EEC00680233 /* IFGCircularSlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		147100FD1B517CBC00680233 /* IFGCircularSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				147101001B517CBC00680233 /* IFGCircularSliderTests.m */,
+				147100FE1B517CBC00680233 /* Supporting Files */,
+			);
+			path = IFGCircularSliderTests;
+			sourceTree = "<group>";
+		};
+		147100FE1B517CBC00680233 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				147100FF1B517CBC00680233 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		147101151B517E7800680233 /* IFGCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				147101161B517E7800680233 /* IFGCircularSlider.h */,
+				147101171B517E7800680233 /* IFGCircularSlider.m */,
+				147101181B517E7800680233 /* IFGCircularTrig.h */,
+				147101191B517E7800680233 /* IFGCircularTrig.m */,
+			);
+			name = IFGCircularSlider;
+			path = ../../IFGCircularSlider;
+			sourceTree = "<group>";
+		};
+		1471011C1B517E8B00680233 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1471011D1B517E8B00680233 /* IFGBasicViewController.h */,
+				1471011E1B517E8B00680233 /* IFGBasicViewController.m */,
+				1471011F1B517E8B00680233 /* IFGBigCircleHandleViewController.h */,
+				147101201B517E8B00680233 /* IFGBigCircleHandleViewController.m */,
+				147101251B517E8B00680233 /* IFGDoubleCircleViewController.h */,
+				147101261B517E8B00680233 /* IFGDoubleCircleViewController.m */,
+				1471012B1B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.h */,
+				1471012C1B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.m */,
+				1471012D1B517E8B00680233 /* IFGWithLabelsViewController.h */,
+				1471012E1B517E8B00680233 /* IFGWithLabelsViewController.m */,
+				147101211B517E8B00680233 /* IFGBigLineViewController.h */,
+				147101221B517E8B00680233 /* IFGBigLineViewController.m */,
+				147101271B517E8B00680233 /* IFGSnapToLabelsViewController.h */,
+				147101281B517E8B00680233 /* IFGSnapToLabelsViewController.m */,
+				147101291B517E8B00680233 /* IFGTimePickerViewController.h */,
+				1471012A1B517E8B00680233 /* IFGTimePickerViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147100E01B517CBB00680233 /* IFGCircularSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147101041B517CBC00680233 /* Build configuration list for PBXNativeTarget "IFGCircularSlider" */;
+			buildPhases = (
+				147100DD1B517CBB00680233 /* Sources */,
+				147100DE1B517CBB00680233 /* Frameworks */,
+				147100DF1B517CBB00680233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IFGCircularSlider;
+			productName = IFGCircularSlider;
+			productReference = 147100E11B517CBB00680233 /* IFGCircularSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		147100F91B517CBC00680233 /* IFGCircularSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147101071B517CBC00680233 /* Build configuration list for PBXNativeTarget "IFGCircularSliderTests" */;
+			buildPhases = (
+				147100F61B517CBC00680233 /* Sources */,
+				147100F71B517CBC00680233 /* Frameworks */,
+				147100F81B517CBC00680233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147100FC1B517CBC00680233 /* PBXTargetDependency */,
+			);
+			name = IFGCircularSliderTests;
+			productName = IFGCircularSliderTests;
+			productReference = 147100FA1B517CBC00680233 /* IFGCircularSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147100D91B517CBB00680233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ifullgaz.com;
+				TargetAttributes = {
+					147100E01B517CBB00680233 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					147100F91B517CBC00680233 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 147100E01B517CBB00680233;
+					};
+				};
+			};
+			buildConfigurationList = 147100DC1B517CBB00680233 /* Build configuration list for PBXProject "IFGCircularSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 147100D81B517CBB00680233;
+			productRefGroup = 147100E21B517CBB00680233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147100E01B517CBB00680233 /* IFGCircularSlider */,
+				147100F91B517CBC00680233 /* IFGCircularSliderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147100DF1B517CBB00680233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147100F01B517CBB00680233 /* Main.storyboard in Resources */,
+				147100F51B517CBB00680233 /* LaunchScreen.xib in Resources */,
+				147100F21B517CBB00680233 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147100F81B517CBC00680233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147100DD1B517CBB00680233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1471011A1B517E7800680233 /* IFGCircularSlider.m in Sources */,
+				147101341B517E8B00680233 /* IFGSnapToLabelsViewController.m in Sources */,
+				147101311B517E8B00680233 /* IFGBigLineViewController.m in Sources */,
+				1471011B1B517E7800680233 /* IFGCircularTrig.m in Sources */,
+				147101301B517E8B00680233 /* IFGBigCircleHandleViewController.m in Sources */,
+				147101361B517E8B00680233 /* IFGTwoSlidersAutoLayoutViewController.m in Sources */,
+				147101351B517E8B00680233 /* IFGTimePickerViewController.m in Sources */,
+				147100EA1B517CBB00680233 /* AppDelegate.m in Sources */,
+				147100E71B517CBB00680233 /* main.m in Sources */,
+				147101371B517E8B00680233 /* IFGWithLabelsViewController.m in Sources */,
+				147101331B517E8B00680233 /* IFGDoubleCircleViewController.m in Sources */,
+				1471012F1B517E8B00680233 /* IFGBasicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147100F61B517CBC00680233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147101011B517CBC00680233 /* IFGCircularSliderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		147100FC1B517CBC00680233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147100E01B517CBB00680233 /* IFGCircularSlider */;
+			targetProxy = 147100FB1B517CBC00680233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		147100EE1B517CBB00680233 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147100EF1B517CBB00680233 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		147100F31B517CBB00680233 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147100F41B517CBB00680233 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147101021B517CBC00680233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		147101031B517CBC00680233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147101051B517CBC00680233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = "IFGCircularSlider/IFGCircularSlider-Prefix.pch";
+				INFOPLIST_FILE = IFGCircularSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		147101061B517CBC00680233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = "IFGCircularSlider/IFGCircularSlider-Prefix.pch";
+				INFOPLIST_FILE = IFGCircularSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		147101081B517CBC00680233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IFGCircularSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IFGCircularSlider.app/IFGCircularSlider";
+			};
+			name = Debug;
+		};
+		147101091B517CBC00680233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IFGCircularSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IFGCircularSlider.app/IFGCircularSlider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147100DC1B517CBB00680233 /* Build configuration list for PBXProject "IFGCircularSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147101021B517CBC00680233 /* Debug */,
+				147101031B517CBC00680233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147101041B517CBC00680233 /* Build configuration list for PBXNativeTarget "IFGCircularSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147101051B517CBC00680233 /* Debug */,
+				147101061B517CBC00680233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147101071B517CBC00680233 /* Build configuration list for PBXNativeTarget "IFGCircularSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147101081B517CBC00680233 /* Debug */,
+				147101091B517CBC00680233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147100D91B517CBB00680233 /* Project object */;
+}
