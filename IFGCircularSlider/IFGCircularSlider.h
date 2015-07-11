@@ -1,9 +1,10 @@
 //
 //  IFGCircularSlider.h
-//  Awake
+//  IFGCircularSlider
 //
 //  Created by Eliot Fowler on 12/3/13.
-//  Copyright (c) 2013 Eliot Fowler. All rights reserved.
+//  Modified by Emmanuel Merali on Jul 12, 2015.
+//  Copyright (c) 2015 Emmanuel Merali. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

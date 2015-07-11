@@ -3,7 +3,8 @@
 //  IFGCircularSlider
 //
 //  Created by Christian Bianciotto on 21/03/14.
-//  Copyright (c) 2014 Eliot Fowler. All rights reserved.
+//  Modified by Emmanuel Merali on Jul 12, 2015.
+//  Copyright (c) 2015 Emmanuel Merali. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
