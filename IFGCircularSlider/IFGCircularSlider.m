@@ -17,6 +17,7 @@
 @property (assign, nonatomic) CGFloat                       radius;
 @property (assign, nonatomic) CGFloat                       angleFromNorth;
 @property (strong, nonatomic) NSMutableDictionary           *labelsWithPercents;
+@property (assign, nonatomic) BOOL                          processControlEvent;
 
 @property (nonatomic, readonly) CGFloat                     handleWidth;
 @property (nonatomic, readonly) CGFloat                     innerLabelRadialDistanceFromCircumference;
@@ -159,7 +160,11 @@ static const CGFloat kFitFrameRadius = -1.0;
     
     // Update the angleFromNorth to match this newly set value
     self.angleFromNorth = (currentValue * self.coverage) / (self.maximumValue - self.minimumValue);
-    [self sendActionsForControlEvents:UIControlEventValueChanged];
+    if (!self.processControlEvent) {
+        self.processControlEvent = YES;
+        [self sendActionsForControlEvents:UIControlEventValueChanged];
+        self.processControlEvent = NO;
+    }
 }
 
 - (void)setAngleFromNorth:(CGFloat)angleFromNorth {
